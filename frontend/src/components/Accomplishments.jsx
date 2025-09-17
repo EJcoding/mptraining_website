@@ -36,12 +36,12 @@ const Accomplishments = () => {
               {[
                 { 
                   name: 'Student 1', 
-                  achievement: 'Division I Scholarship - State University',
+                  achievement: 'Division I Scholarship - College/University',
                   quote: 'MP Training helped me develop the technical skills and confidence I needed to compete at the highest level.'
                 },
                 { 
                   name: 'Student 2', 
-                  achievement: 'Varsity Team Captain - City High School',
+                  achievement: 'Varsity Team Captain - High School',
                   quote: 'The personalized training approach made all the difference in my game development.'
                 },
                 { 
