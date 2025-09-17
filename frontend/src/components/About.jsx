@@ -1,4 +1,5 @@
 import cheloHeadshot from '../assets/chelo-headshot.jpg';
+import cheloPic from '../assets/IMG_9675.JPG';
 
 const About = () => {
   return (
@@ -8,9 +9,9 @@ const About = () => {
           <div>
             <div className="w-96 h-96 mx-auto overflow-hidden rounded-2xl shadow-2xl">
               <img
-                src={cheloHeadshot}
+                src={cheloPic}
                 alt="Coach Marcelo"
-                className="w-full h-full object-cover object-top"
+                className="w-full h-full object-cover"
               />
             </div>
           </div>
