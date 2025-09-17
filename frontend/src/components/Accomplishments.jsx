@@ -14,11 +14,11 @@ const Accomplishments = () => {
             <h3 className="text-2xl font-bold text-gray-900 mb-6">Coach Achievements</h3>
             <div className="space-y-4">
               {[
-                { year: '2025 - Present', achievement: 'Semi-Pro Player for Foro Sports Club' },
+                { year: '2024 - Present', achievement: 'Semi-Pro Player for Foro Sports Club' },
                 { year: '2019 - 2023', achievement: '4-year Varsity Starter' },
-                { year: '2022', achievement: 'First Team All-District' },
-                { year: '2025', achievement: 'Played for FC Dallas' },
-                { year: '2025', achievement: 'Played for Monterrey Mexico' }
+                { year: '2022 - 2023', achievement: 'First Team All-District (FISD)' },
+                { year: '2017 - 2022', achievement: 'Played for FC Dallas' },
+                { year: '2010 - 2017', achievement: 'Played for Monterrey Mexico' }
               ].map((item, index) => (
                 <div key={index} className="flex items-center space-x-4 bg-white p-4 rounded-lg shadow-sm">
                   <div className="bg-blue-600 text-white px-3 py-1 rounded-full text-sm font-bold">
