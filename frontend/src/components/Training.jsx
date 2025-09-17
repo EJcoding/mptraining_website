@@ -1,4 +1,4 @@
-import { Target, Trophy, Users, ChevronDown } from 'lucide-react';
+import { Target, Users, ChevronDown } from 'lucide-react';
 import training1 from '../assets/training1.jpg';
 import training2 from '../assets/training2.jpg';
 import training3 from '../assets/training3.jpg';
@@ -29,7 +29,7 @@ const Training = ({ scrollToSection }) => {
                 <li>• Personalized feedback</li>
                 <li>• Video/film breakdown</li>
               </ul>
-              <div className="mt-6 text-2xl font-bold text-blue-600">$75/session</div>
+              <div className="mt-6 text-2xl font-bold text-blue-600">$65/session</div>
             </div>
           </div>
 
@@ -38,9 +38,9 @@ const Training = ({ scrollToSection }) => {
               <Users size={64} className="text-white" />
             </div>
             <div className="p-6">
-              <h3 className="text-xl font-bold text-gray-900 mb-3">Small Group Training</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-3">Group Training</h3>
               <p className="text-gray-600 mb-4">
-                Train with 1-3 players of similar skill level. Great for competitive development and team chemistry.
+                Train with 3-5 players of similar skill level. Great for competitive development and team chemistry.
               </p>
               <ul className="space-y-2 text-sm text-gray-700">
                 <li>• Group dynamics training</li>
@@ -48,26 +48,26 @@ const Training = ({ scrollToSection }) => {
                 <li>• Team communication</li>
                 <li>• Cost-effective option</li>
               </ul>
-              <div className="mt-6 text-2xl font-bold text-green-600">$45/session</div>
+              <div className="mt-6 text-2xl font-bold text-green-600">$35/player</div>
             </div>
           </div>
 
           <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
             <div className="h-48 bg-gradient-to-br from-purple-500 to-purple-600 flex items-center justify-center">
-              <Trophy size={64} className="text-white" />
+              <Users size={64} className="text-white" />
             </div>
             <div className="p-6">
-              <h3 className="text-xl font-bold text-gray-900 mb-3">College Recruitment Prep</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-3">Bring a Friend Training</h3>
               <p className="text-gray-600 mb-4">
-                Comprehensive program designed for players serious about playing at the collegiate level.
+                Push yourself and a friend by overcoming challenges together. Ideal for motivation and shared progress.
               </p>
               <ul className="space-y-2 text-sm text-gray-700">
-                <li>• Highlight reel creation</li>
-                <li>• College coach connections</li>
-                <li>• Recruitment timeline planning</li>
-                <li>• College-level drills</li>
+                <li>• Partner training</li>
+                <li>• Competitive drills</li>
+                <li>• Chemistry building</li>
+                <li>• Cost-effective option</li>
               </ul>
-              <div className="mt-6 text-2xl font-bold text-purple-600">$100/session</div>
+              <div className="mt-6 text-2xl font-bold text-purple-600">$45/player</div>
             </div>
           </div>
         </div>
