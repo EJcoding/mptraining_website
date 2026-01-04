@@ -1,5 +1,6 @@
 import { ChevronDown } from 'lucide-react';
 import mpLogo from '../assets/mptraining-logo.jpg';
+import mpLogo2 from '../assets/mptraining logo 2.jpg';
 
 const Home = ({ scrollToSection }) => {
   return (
@@ -30,7 +31,7 @@ const Home = ({ scrollToSection }) => {
           </div>
           <div className="flex justify-center items-center">
             <img
-              src={mpLogo}
+              src={mpLogo2}
               alt="MP Training Logo"
               className="w-full max-w-md rounded-2xl shadow-lg border-4 border-white/20 backdrop-blur-sm"
             />

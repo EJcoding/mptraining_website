@@ -1,5 +1,7 @@
 import { Menu, X } from 'lucide-react';
 import mpLogo from '../assets/mptraining-logo.jpg';
+import mpLogo2 from '../assets/mptraining logo 2.jpg';
+
 
 const Navigation = ({ activeSection, setActiveSection, mobileMenuOpen, setMobileMenuOpen, scrollToSection }) => {
   return (
@@ -7,7 +9,7 @@ const Navigation = ({ activeSection, setActiveSection, mobileMenuOpen, setMobile
       <div className="max-w-6xl mx-auto px-4">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center space-x-3">
-            <img src={mpLogo} alt="MP Training Logo" className="h-12 w-auto object-contain" />
+            <img src={mpLogo2} alt="MP Training Logo" className="h-12 w-auto object-contain" />
             <span className="font-bold font-serif text-xl text-gray-900">MP TRAINING</span>
           </div>
 

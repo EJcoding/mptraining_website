@@ -1,4 +1,3 @@
-import cheloHeadshot from '../assets/chelo-headshot.jpg';
 import cheloPic from '../assets/IMG_9675.JPG';
 
 const About = () => {
