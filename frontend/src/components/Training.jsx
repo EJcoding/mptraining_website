@@ -29,7 +29,7 @@ const Training = ({ scrollToSection }) => {
                 <li>• Personalized feedback</li>
                 <li>• Video/film breakdown</li>
               </ul>
-              <div className="mt-6 text-2xl font-bold text-blue-600">$65/session</div>
+              <div className="mt-6 text-2xl font-bold text-blue-600">Msg "PRIVATE" for Info</div>
             </div>
           </div>
 
@@ -48,7 +48,7 @@ const Training = ({ scrollToSection }) => {
                 <li>• Team communication</li>
                 <li>• Cost-effective option</li>
               </ul>
-              <div className="mt-6 text-2xl font-bold text-green-600">$35/player</div>
+              <div className="mt-6 text-2xl font-bold text-green-600">Msg "GROUP" for Info</div>
             </div>
           </div>
 
@@ -67,7 +67,7 @@ const Training = ({ scrollToSection }) => {
                 <li>• Chemistry building</li>
                 <li>• Cost-effective option</li>
               </ul>
-              <div className="mt-6 text-2xl font-bold text-purple-600">$45/player</div>
+              <div className="mt-6 text-2xl font-bold text-purple-600">Msg "FRIEND" for Info</div>
             </div>
           </div>
         </div>
